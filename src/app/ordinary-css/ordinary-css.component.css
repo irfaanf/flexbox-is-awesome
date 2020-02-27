@@ -1,0 +1,11 @@
+.card {
+    width: 260px;
+}
+
+.card .image-area {
+    width: 100%;
+}
+
+.card .image-area img {
+    width: 100%;
+}
