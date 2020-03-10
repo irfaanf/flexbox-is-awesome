@@ -1,29 +1,38 @@
 .card {
     width: 260px;
-    height: 400px;
-    border: 1px solid tomato;
+    height: 440px;
+    border: 3px solid black;
     border-radius: 14px;
     overflow: hidden;
+    margin-right: 20px;
+    float: left;
 }
 
 .card .image-area {
     width: 100%;
-    height: 260px;
-    margin-bottom: 20px;
+    height: 180px;
 }
 
 .card .image-area img {
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .card .text-area {
     position: relative;
-    padding: 0 10px 10px;
+}
+
+.card .text-area > * {
+    padding: 0 10px;
 }
 
 .card .text-area .heading {
     line-height: 30px;
     margin-bottom: 10px;
+    background-color: tomato;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 .card .text-area .heading h2 {
@@ -42,4 +51,5 @@
 .card .text-area .button-area {
     margin: 0;
     text-align: center;
+    vertical-align: bottom;
 }
