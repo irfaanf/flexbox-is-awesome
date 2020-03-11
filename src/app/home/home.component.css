@@ -1,5 +1,27 @@
 .outer {
-    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 100%;
     width: 100%;
+    background-color: skyblue;
+}
+
+.outer h1 {
+    font-size: 72px;
+    margin: 0 0 10px;
+}
+
+.outer h2 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.outer h2.reveal {
+    color: transparent;
+}
+
+.outer h2.reveal:hover {
+    color: black;
 }
