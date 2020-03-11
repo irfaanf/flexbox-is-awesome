@@ -4,7 +4,7 @@
     border: 3px solid black;
     border-radius: 14px;
     overflow: hidden;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
     float: left;
 }
 
@@ -21,10 +21,12 @@
 
 .card .text-area {
     position: relative;
+    height: 260px;
 }
 
 .card .text-area > * {
     padding: 0 10px;
+    margin-bottom: 10px;
 }
 
 .card .text-area .heading {
@@ -43,13 +45,27 @@
     margin-bottom: 10px;
 }
 
-.card .text-area.description p {
+.card .text-area .description p {
     margin: 0;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 .card .text-area .button-area {
-    margin: 0;
     text-align: center;
-    vertical-align: bottom;
+}
+
+.card .text-area .button-area button {
+    line-height: 25px;
+    background-color: seagreen;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card .text-area .button-area button:hover {
+    background-color: black;
+    color: white;
 }
