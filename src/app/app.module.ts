@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResponsivenessFlexboxExampleComponent } from './responsiveness-flexbox-example/responsiveness-flexbox-example.component';
 import { ResponsivenessTediousComponent } from './responsiveness-tedious/responsiveness-tedious.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ResponsivenessTediousComponent } from './responsiveness-tedious/respons
     AppComponent,
     AlignmentExampleComponent,
     ResponsivenessTediousComponent,
-    ResponsivenessFlexboxExampleComponent
+    ResponsivenessFlexboxExampleComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
