@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OrdinaryCSSComponent } from './ordinary-css.component';
+import { AlignmentExampleComponent } from './alignment-example.component';
 
 describe('OrdinaryCSSComponent', () => {
-  let component: OrdinaryCSSComponent;
-  let fixture: ComponentFixture<OrdinaryCSSComponent>;
+  let component: AlignmentExampleComponent;
+  let fixture: ComponentFixture<AlignmentExampleComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OrdinaryCSSComponent ]
+      declarations: [ AlignmentExampleComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OrdinaryCSSComponent);
+    fixture = TestBed.createComponent(AlignmentExampleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

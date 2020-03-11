@@ -1,13 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { AlignmentExampleComponent } from './alignment-example/alignment-example.component';
 import { AppComponent } from './app.component';
-import { OrdinaryCSSComponent } from './ordinary-css/ordinary-css.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    OrdinaryCSSComponent
+    AlignmentExampleComponent
   ],
   imports: [
     BrowserModule
