@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResponsivenessFlexboxExampleComponent } from './responsiveness-flexbox-example.component';
+import { ResponsivenessFlexboxComponent } from './responsiveness-flexbox.component';
 
 describe('ResponsivenessFlexboxExampleComponent', () => {
-  let component: ResponsivenessFlexboxExampleComponent;
-  let fixture: ComponentFixture<ResponsivenessFlexboxExampleComponent>;
+  let component: ResponsivenessFlexboxComponent;
+  let fixture: ComponentFixture<ResponsivenessFlexboxComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ResponsivenessFlexboxExampleComponent ]
+      declarations: [ ResponsivenessFlexboxComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ResponsivenessFlexboxExampleComponent);
+    fixture = TestBed.createComponent(ResponsivenessFlexboxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

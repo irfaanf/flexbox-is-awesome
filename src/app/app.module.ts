@@ -5,9 +5,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AlignmentExampleComponent } from './alignment-example/alignment-example.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ResponsivenessFlexboxExampleComponent } from './responsiveness-flexbox-example/responsiveness-flexbox-example.component';
-import { ResponsivenessTediousComponent } from './responsiveness-tedious/responsiveness-tedious.component';
 import { HomeComponent } from './home/home.component';
+import { ResponsivenessFlexboxComponent } from './responsiveness-flexbox/responsiveness-flexbox.component';
+import { ResponsivenessTediousComponent } from './responsiveness-tedious/responsiveness-tedious.component';
 
 
 @NgModule({
@@ -15,7 +15,7 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     AlignmentExampleComponent,
     ResponsivenessTediousComponent,
-    ResponsivenessFlexboxExampleComponent,
+    ResponsivenessFlexboxComponent,
     HomeComponent
   ],
   imports: [
