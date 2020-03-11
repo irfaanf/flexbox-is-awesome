@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResponsivenessExampleComponent } from './responsiveness-example.component';
+import { ResponsivenessTediousComponent } from './responsiveness-tedious.component';
 
 describe('ResponsivenessExampleComponent', () => {
-  let component: ResponsivenessExampleComponent;
-  let fixture: ComponentFixture<ResponsivenessExampleComponent>;
+  let component: ResponsivenessTediousComponent;
+  let fixture: ComponentFixture<ResponsivenessTediousComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ResponsivenessExampleComponent ]
+      declarations: [ ResponsivenessTediousComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ResponsivenessExampleComponent);
+    fixture = TestBed.createComponent(ResponsivenessTediousComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

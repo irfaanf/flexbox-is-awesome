@@ -2,11 +2,11 @@ import { BreakpointObserver } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-responsiveness-example',
-  templateUrl: './responsiveness-example.component.html',
-  styleUrls: ['./responsiveness-example.component.css']
+  selector: 'app-responsiveness-tedious',
+  templateUrl: './responsiveness-tedious.component.html',
+  styleUrls: ['./responsiveness-tedious.component.css']
 })
-export class ResponsivenessExampleComponent implements OnInit {
+export class ResponsivenessTediousComponent implements OnInit {
 
   columns: number;
 
