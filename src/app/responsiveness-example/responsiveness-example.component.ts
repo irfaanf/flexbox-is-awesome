@@ -9,21 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class ResponsivenessExampleComponent implements OnInit {
 
   columns: number;
-  isSmallScreen: boolean = false;
 
   constructor(breakpointObserver: BreakpointObserver) {
     breakpointObserver.observe([
       '(max-width: 1000px)'
     ]).subscribe(result => {
-      this.isSmallScreen = result.matches;
-      console.log("Top");
+      this.columns = result.matches ? 1 : 2;
     });
   }
 
   ngOnInit() {
-    this.columns = 2;
-    console.log(this.columns);
-
   }
-
 }

@@ -1,7 +1,6 @@
-ISS: {{ isSmallScreen ? 1 : 2 }}
-<mat-grid-list [cols]="isSmallScreen ? 1 : 2" rowHeight="500px">
+<mat-grid-list [cols]="columns" rowHeight="500px">
     <mat-grid-tile>
-        <!-- <h2>Contact Us</h2>
+        <h2>Contact Us</h2>
         <div>
             <p>
                 Suspendisse vitae dictum orci, non posuere sapien. Pellentesque nisi tortor, dictum sit amet vulputate
@@ -61,7 +60,7 @@ ISS: {{ isSmallScreen ? 1 : 2 }}
                 ullamcorper
                 iaculis fringilla.
             </p>
-        </div> -->
+        </div>
     </mat-grid-tile>
     <mat-grid-tile>
         Some stuff
