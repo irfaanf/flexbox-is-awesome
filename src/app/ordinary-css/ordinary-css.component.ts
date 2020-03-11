@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ordinary-css.component.html',
   styleUrls: [
     './ordinary-css.component.css',
+   './old-approach.css'
   ]
 })
 export class OrdinaryCSSComponent implements OnInit {
