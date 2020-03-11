@@ -6,13 +6,15 @@ import { AlignmentExampleComponent } from './alignment-example/alignment-example
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResponsivenessExampleComponent } from './responsiveness-example/responsiveness-example.component';
+import { ResponsivenessFlexboxExampleComponent } from './responsiveness-flexbox-example/responsiveness-flexbox-example.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AlignmentExampleComponent,
-    ResponsivenessExampleComponent
+    ResponsivenessExampleComponent,
+    ResponsivenessFlexboxExampleComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,20 @@
+.screen-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.screen-container .screen {
+    width: 50%;
+    background-color: lightgreen;
+}
+
+@media only screen and (max-width: 1000px) {
+    .screen-container {
+        flex-direction: column;
+    }
+    
+    .screen-container .screen {
+        width: 100%;
+    }        
+}
